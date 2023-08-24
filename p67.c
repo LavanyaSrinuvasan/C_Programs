@@ -33,7 +33,7 @@ int main()
     printf("The Electricity bill is %.2f\n",amount);
     if(amount>=400)
     {
-    amount=amount+400;
+    amount=amount+0.15;
     printf("The surcharge added bill the customer should pay is %.2f\n",amount);
     }
     else if(amount<=100)
