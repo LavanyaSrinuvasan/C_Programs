@@ -16,28 +16,25 @@ printf("Enter the minimum budget");
 scanf("%ld",&min);
 printf("Enter the maximum budget");
 scanf("%ld",&max);
-if((min>=10000)&&(max<15000))
+if((Oppo>=min)&&(Oppo<=max))
 {
-  printf("Your phone suggestion is Nokia of price %ld",Nokia);
+  printf("Your phone suggestion is Nokia of price %ld\n",Oppo);
 }
-else if((min>=15000)&&(max<20000))
+if((vivo>=min)&&(vivo<=max))
 {
-  printf("Your phone suggestion is Oppo of price %ld",Oppo);
+  printf("Your phone suggestion is Oppo of price %ld\n",vivo);
 }
-else if((min>=20000)&&(max<25000))
+if((Samsung>=min)&&(Samsung<=max))
 {
-  printf("Your phone suggestion is Samsung of price %ld",Samsung);
+  printf("Your phone suggestion is Samsung of price %ld\n",Samsung);
 }
-else if((min>=25000)&&(max<30000))
+if((Nokia>=min)&&(Nokia<=max))
 {
-  printf("Your phone suggestion is Vivo of price %ld",vivo);
+  printf("Your phone suggestion is Vivo of price %ld\n",Nokia);
 }
-else if((min>=30000)&&(max<100000))
+if((Apple>=min)&&(Apple<=max))
 {
-  printf("Your phone suggestion is Apple of price %ld",Apple);
-}
-else{
-    printf("Enter a budget between 10,000 and 1,00,000 range");
+  printf("Your phone suggestion is Apple of price %ld\n",Apple);
 }
 
 return 0;
